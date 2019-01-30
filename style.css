@@ -71,7 +71,7 @@ body{
 
 .about{
 	padding-top: 100px;
-	padding-bottom: 50px;
+	margin-bottom: -130px;
 }
 
 .profile-img{
@@ -95,7 +95,7 @@ body{
 
 .nav-bar .fa-bars{
 	font-size: 35px;
-	color: #07121C;
+	color: #fff;
 }
 
 .navbar-toggler{
@@ -107,11 +107,7 @@ body{
 	text-align: right;	
 }
 
-.navbar-link{
-	color: #fff !important;
-}
-
-.skills-bar P{
+.skills-bar p{
 	margin-bottom: 6px;
 	font-weight: 600px;
 }
@@ -129,6 +125,7 @@ body{
 /*------Resume-----------*/
 
 .resume{
+	margin-top: -50px;
 	padding-top: 50px;
 	padding-bottom: 30px;
 	background-color: #f9f9f9;
@@ -236,3 +233,89 @@ body{
 	color: #fff;
 }
 
+/* --------CONTACT------------ */
+
+.contact{
+	padding-top: 50px;
+	background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.6)), url(imgs/textura2.png);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	color: #fff;
+}
+
+.contact .row{
+	padding: 30px 0;
+	font-size: 22px;
+}
+
+.contact .col-md-4 .fa{
+	padding: 10px;
+	font-size: 40px;
+}
+
+.contact .btn{
+	padding: 10px 25px 10px 25px;
+	margin: 5px;
+	border-radius: 30px;
+	border: 2px solid #fff;
+	background: transparent;
+}
+
+.contact .btn:focus{
+	box-shadow: none !important;
+}
+
+.contact .btn:hover{
+	border: 2px solid #000 !important;
+	background: #07121C !important;
+	transition: 0.6s;
+}
+
+.contact .btn .fa{
+	margin-right: 10px;
+}
+
+.footer{
+	background-color: #000;
+	height: 50px;
+	margin-top: 50px;
+	color: #fff;
+	padding-top: 10px;	
+}
+
+.fa-heart-o{
+	color: red;
+}
+
+/*--------------------------Social Icons ------------------------------*/
+
+
+.social-icons{
+	top:50%;
+	transform: translateY(-50%);
+	position: sticky;
+	z-index: 1;
+	width: 80px;
+}
+
+.social-icons ul{
+	padding: initial;
+}
+
+.social-icons ul li{
+	height: 40px;
+	width: 40px;
+	list-style-type: none;
+	padding-left: 12px;
+	padding-top: 6px;
+	margin-top: 5px;
+	color: #fff;
+	background-color: #07121C;
+}
+
+.social-icons ul li:hover{
+	padding-left: 30px;
+	width: 80px;
+	transition: 1s;
+}
